@@ -1,0 +1,139 @@
+body {
+    max-width: 100%;
+    background-color: black;
+    color: aliceblue;
+}
+
+/*Share Color*/
+.primarty-color {
+    color: #FE6533CF;
+}
+
+
+/*Share font*/
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: 1rem;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Another Font */
+.playwrite {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/*Navbar*/
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*Navlist*/
+.logo {
+    color: #E6533C;
+    font-weight: 900;
+}
+header img{
+    display: none;
+}
+
+.navlist a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: aliceblue;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.navlist {
+    border: 1px solid rgba(255, 255, 255, 10%);
+    padding: 8px 0;
+    border-radius: 39px;
+}
+
+/* Hover Effect On button */
+.navlist a:hover {
+    background-color: #FE6533CF;
+    border-radius: 46px;
+    padding: 8px 15px;
+}
+main .hero-section {
+    background-color: rgba(119, 119, 119, 5%);
+}
+main .play-btn{
+    position: absolute;
+    left: 715px;
+    bottom: 49px;
+}
+
+/* Responsive Mobile Navbar */
+@media screen and (max-width: 576px) {
+    .navlist{
+        display: none;
+    }
+    .sub-menu{
+        display: flex;
+    }
+}
+
+/* Heo Banner Section */
+.title-section{
+    width: 620px;
+}
+.title-section h2 {
+    font-weight: 800;
+    font-size: 3rem;
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.title-section p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+.primary-btn{
+    color: aliceblue;
+    background-color: #E6533C;
+    border-radius: 42px;
+    padding: 16px 46px;
+    margin-right: 14px;
+}
+.secendary-btn{
+    padding: 16px 46px;
+    color:#E6533C;
+    background-color:aliceblue;
+    border-radius: 42px;
+}
+.tutorial-overly{
+    position: relative;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgba(48, 48, 48, 54%);
+    padding: 5px;
+    left: 700px;
+    bottom: 180px;
+}
+
+.tutorial-overly h3{
+    font-size: 1.15rem;
+}
+.videos-overly{
+    position: relative;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 10%);
+    left: 1045px;
+    bottom: 560px;
+    padding: 5px;
+}
