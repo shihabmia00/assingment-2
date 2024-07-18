@@ -17,13 +17,14 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
 /* Another Font */
 .playwrite {
     font-family: "Playwrite CU", cursive;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 /*Navbar*/
 .navbar {
@@ -37,7 +38,8 @@ body {
     color: #E6533C;
     font-weight: 900;
 }
-header img{
+
+header img {
     display: none;
 }
 
@@ -61,57 +63,134 @@ header img{
     border-radius: 46px;
     padding: 8px 15px;
 }
+
 main .hero-section {
     background-color: rgba(119, 119, 119, 5%);
 }
-main .play-btn{
+
+main .play-btn {
     position: absolute;
     left: 715px;
     bottom: 49px;
 }
 
+.sub-menu {
+    display: none;
+}
+.btn{
+    display: none;
+}
+
 /* Responsive Mobile Navbar */
 @media screen and (max-width: 576px) {
-    .navlist{
+    body{
+    }
+    .primary-btn{
         display: none;
     }
-    .sub-menu{
-        display: flex;
+    .secendary-btn{
+        display: none;
     }
+    .navlist {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .play-btn {
+        display: none;
+    }
+
+    .tutorial-overly {
+        display: none;
+    }
+
+    .videos-overly {
+        display: none;
+    }
+    .title-section{
+        max-width: 352px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .title-section h2 {
+        margin: 0 20px;
+    }
+    .playwrite{
+        margin-left: 10px;
+    }
+
+    .title-section p {
+        margin: 10px 20px;
+    }
+    .btn{
+        display: flex;
+        gap: 5px;
+    }
+    .btn button {
+        width: 140px;
+        height: 44px;
+        border-radius: 30px;
+        background-color: #E6533C;
+        color: white;
+    }
+    .hero-img img{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 /* Heo Banner Section */
-.title-section{
+.title-section {
     width: 620px;
 }
+
 .title-section h2 {
     font-weight: 800;
     font-size: 3rem;
 }
-.hero-section{
+
+.hero-section {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
+
 .title-section p {
     font-size: 1rem;
     font-weight: 400;
 }
-.primary-btn{
+
+.primary-btn {
     color: aliceblue;
     background-color: #E6533C;
     border-radius: 42px;
     padding: 16px 46px;
     margin-right: 14px;
 }
-.secendary-btn{
+
+.secendary-btn {
     padding: 16px 46px;
-    color:#E6533C;
-    background-color:aliceblue;
+    color: #E6533C;
+    background-color: aliceblue;
     border-radius: 42px;
 }
-.tutorial-overly{
+
+.tutorial-overly {
     position: relative;
     width: 200px;
     justify-content: center;
@@ -123,10 +202,11 @@ main .play-btn{
     bottom: 180px;
 }
 
-.tutorial-overly h3{
+.tutorial-overly h3 {
     font-size: 1.15rem;
 }
-.videos-overly{
+
+.videos-overly {
     position: relative;
     width: 200px;
     justify-content: center;
