@@ -4,6 +4,10 @@ body {
     color: aliceblue;
 }
 
+p {
+    color: rgba(255, 255, 255, 50%);
+}
+
 /*Share Color*/
 .primarty-color {
     color: #FE6533CF;
@@ -77,20 +81,23 @@ main .play-btn {
 .sub-menu {
     display: none;
 }
-.btn{
+
+.btn {
     display: none;
 }
 
 /* Responsive Mobile Navbar */
 @media screen and (max-width: 576px) {
-    body{
-    }
-    .primary-btn{
+    body {}
+
+    .primary-btn {
         display: none;
     }
-    .secendary-btn{
+
+    .secendary-btn {
         display: none;
     }
+
     .navlist {
         display: none;
     }
@@ -116,7 +123,8 @@ main .play-btn {
     .videos-overly {
         display: none;
     }
-    .title-section{
+
+    .title-section {
         max-width: 352px;
         margin: 0;
         display: flex;
@@ -124,20 +132,24 @@ main .play-btn {
         justify-content: center;
         align-items: center;
     }
+
     .title-section h2 {
         margin: 0 20px;
     }
-    .playwrite{
+
+    .playwrite {
         margin-left: 10px;
     }
 
     .title-section p {
         margin: 10px 20px;
     }
-    .btn{
+
+    .btn {
         display: flex;
         gap: 5px;
     }
+
     .btn button {
         width: 140px;
         height: 44px;
@@ -145,7 +157,8 @@ main .play-btn {
         background-color: #E6533C;
         color: white;
     }
-    .hero-img img{
+
+    .hero-img img {
         width: 100%;
         justify-content: center;
         align-items: center;
@@ -217,3 +230,278 @@ main .play-btn {
     bottom: 560px;
     padding: 5px;
 }
+
+/* Change your habit section */
+
+.habits-section {
+    margin-top: -180px;
+}
+
+.habits-section h3 {
+    font-weight: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.habits-section p {
+    font-weight: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 50%;
+}
+
+.card {
+    max-width: 280px;
+    margin-top: 30px;
+}
+
+.habits-section h3 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+/* Change your mind Responsive */
+@media screen and (max-width: 576px) {
+    .card-container {
+        flex-direction: column;
+    }
+}
+
+/* Run Extra Section */
+.extra-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 980px;
+    height: 250px;
+    background-color: #827c7c35;
+    border-radius: 16px;
+    margin: 30px auto;
+    padding: 25px;
+    gap: 210px;
+}
+
+.extra-image img {
+    width: 320px;
+    border-radius: 16px;
+}
+
+.extra-content {
+    width: 460px;
+}
+
+.extra--content h3 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.extra--content p {
+    margin-top: -25px;
+}
+
+/* BMI Calculator Section */
+.calculator-section {
+    margin-top: 60px;
+    background-color: rgba(255, 255, 255, 0.104);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.option-section {
+    width: 456px;
+}
+
+.bmi-content h2 {
+    font-size: 2rem;
+    margin-bottom: -5px;
+}
+
+.bmi-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-title td {
+    font-weight: 800;
+}
+
+td {
+    border: 1px solid rgba(255, 255, 255, 50%);
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.table-des td {
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 50%);
+}
+
+input {
+    border: 1px solid #00000023;
+}
+
+select {
+    border: 1px solid #00000023;
+}
+
+#box {
+    width: 225px;
+    margin-top: 5px;
+}
+
+form input {
+    background-color: rgba(255, 255, 255, 0.141);
+    border-radius: 8px;
+    padding: 5px;
+    width: 210px;
+    height: 25px;
+}
+
+#spacial-option {
+    width: 455px;
+    margin-top: 5px;
+}
+
+input::placeholder {
+    color: aliceblue;
+}
+
+select {
+    background-color: rgba(255, 255, 255, 0.141);
+    padding: 5px;
+    width: 219px;
+    height: 35px;
+    color: aliceblue;
+    border-radius: 8px;
+}
+
+.calculate-btn {
+    background-color: #E6533C;
+    color: aliceblue;
+    padding: 10px 36px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.bg-color {
+    background-color: rgba(255, 255, 255, 0.141);
+    border-radius: 8px;
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.team-img {
+    background-image: url(../images/trainer1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 180px;
+    border-radius: 8px;
+}
+
+/*  Meet Our Team Section*/
+.meet-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.meet-content h1 {
+    font-size: 2rem;
+}
+.meet-content p {
+    text-align: center;
+}
+
+.team-container{
+    background-color: rgba(158, 158, 158, 0.074);
+    padding: 10px;
+    width: 1160px;
+    border-radius: 16px;
+    margin: 0 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content:space-around;
+    align-items: center;
+    gap: 40px;
+}
+.team-cart{
+    width: 300px;
+    height: 300px;
+    padding: 0 30px;
+}
+.team-cart img {
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+}
+.team-info h3{
+    color: aliceblue;
+}
+.team-info{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 10px;
+}
+
+/* Footer Section */ 
+footer{
+    background-color: rgba(160, 160, 160, 0.082);
+}
+.footer-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-content h1 {
+    font-size: 3rem;
+    color: #E6533C;
+}
+.logo-content{
+    width: 443px;
+}
+.get-started li {
+    list-style: none;
+    margin-top: 10px;
+}
+.get-started a {
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+}
+/*Copy-write Section*/
+.copy-write{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.copy-write hr {
+    width: 70%;
+}
+
